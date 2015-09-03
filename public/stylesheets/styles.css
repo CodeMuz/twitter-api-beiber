@@ -1,0 +1,24 @@
+html {
+  font-family: 'Indie Flower', cursive;
+  background:url("http://assets-s3.usmagazine.com/uploads/assets/articles/61491-justin-bieber-strikes-back-im-young-and-i-make-mistakes/1364414455_justin-bieber-lg.jpg")
+}
+td, th {
+  width: 4rem;
+  height: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background: lightblue;
+  border-color: white;
+}
+body {
+  padding: 1rem;
+}
+h1,h2,h3,table
+{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.8;
+}
