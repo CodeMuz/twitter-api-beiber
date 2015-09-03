@@ -9,11 +9,11 @@ bin/rake routes
     
              POST   /articles(.:format)          articles#create
              
- new_article GET    /articles/new(.:format)      articles#new
+      new_article GET    /articles/new(.:format)      articles#new
  
-edit_article GET    /articles/:id/edit(.:format) articles#edit
+      edit_article GET    /articles/:id/edit(.:format) articles#edit
 
-     article GET    /articles/:id(.:format)      articles#show
+      article GET    /articles/:id(.:format)      articles#show
      
              PATCH  /articles/:id(.:format)      articles#update
              
