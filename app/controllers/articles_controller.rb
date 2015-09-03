@@ -5,10 +5,10 @@ class ArticlesController < ApplicationController
 
       client = Twitter::REST::Client.new do |config|
 
-        config.consumer_key        = "bdvXYUpcyfmSPzjaLAMv3A"
-        config.consumer_secret     = "usmtAZzGMOSQBsdk2NrsrjyHdjYd9rLHL63gFnyIGLo"
-        config.access_token        = "602956964-GcviHsjd4L2SI1PaFChld296LLzmkm6lp8zn2NsQ"
-        config.access_token_secret = "3skbjcVC7jgMaT1Sxj0ZZePgFRO2o7mOslsyCcRDPF6Qn"
+        config.consumer_key        = ""
+        config.consumer_secret     = ""
+        config.access_token        = ""
+        config.access_token_secret = ""
       end
 
       @tweets = []
