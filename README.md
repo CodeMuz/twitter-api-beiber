@@ -1,8 +1,6 @@
 # twitter-api-beiber
 Rails app builds up a user managed dictionary to filter the last X:tweets
 
-bin/rake routes
-
   new_article GET    /articles/new(.:format)      articles#new
   
  edit_article GET    /articles/:id/edit(.:format) articles#edit
